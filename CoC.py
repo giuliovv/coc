@@ -83,7 +83,6 @@ class currentWar():
         opponentstats_ = self.getOpponentMembersStats().copy()
         return pd.DataFrame(list(np.hstack(opponentstats_.attacks)))
 
-
     def getClanMembers(self):
         df = pd.DataFrame(
             self.response["clan"]["members"]
