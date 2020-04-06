@@ -1,5 +1,5 @@
-# Clash of Clans API reader
-Clash of Clans api python reader.
+# Clash of Clans API wrapper and analysis
+Clash of Clans api python wrapper and analysis.
 Suggest clan wars attack order, still acquiring data to figure out parameter's weight.
 Clan Wars League not implemented yet.
 
@@ -11,7 +11,7 @@ Clan Wars League not implemented yet.
 hdr = {'authorization' : 'Bearer API_KEY'}
 ```
 ## Example:
-See coc.ipynb for examples.
+See folder "Examples".
   
 ## Documentation:
 #### Get clan members:
