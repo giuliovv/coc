@@ -124,27 +124,27 @@ cWar.getClanTroopsLevel()
 cWar.getOpponentTroopsLevel()
 ```
 
-### Experimental, weights could be really really better with more data:
-### Compare clans
+## Experimental, weights could be really really better with more data:
+#### Compare clans
 ```python
 cWar.compare()
 ```
-### Plot compare
+#### Plot compare
 ```python
 cWar.plotCompare()
 ```
 
-### Better attack order:
+#### Better attack order:
 ```python
 cWar.getBetterOrder()
 ```
 
-### Plot better attack order:
+#### Plot better attack order:
 ```python
 cWar.plotBetterOrder()
 ```
 
-### Plot attacks:
+#### Plot attacks:
 ```python
 cWar.plotClanAttack()
 ```
