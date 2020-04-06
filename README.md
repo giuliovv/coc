@@ -14,7 +14,7 @@ hdr = {'authorization' : 'Bearer API_KEY'}
 See coc.ipynb for examples.
   
 ## Documentation:
-### Get clan members:
+#### Get clan members:
 ```python
 import CoC
 tag = "CLAN_TAG"
@@ -22,7 +22,7 @@ tag = "CLAN_TAG"
 CoC.clan_members(tag)
 ```
 
-### Get warlog:
+#### Get warlog:
 ```python
 tag = "CLAN_TAG"
 
@@ -37,7 +37,7 @@ if isPublic:
   print(warlog(tag))
 ```
 
-### Get specific war:
+#### Get specific war:
 ```python
 tag = "WAR_TAG"
 
@@ -46,7 +46,7 @@ ok, war = CoC.getwar(tag)
 war
 ```
 
-### Get user's data:
+#### Get user's data:
 ```python
 tag = "USER_TAG"
 
@@ -55,7 +55,7 @@ ok, user = CoC.data_user(tag)
 user
 ```
 
-### Get specific user data:
+#### Get specific user data:
 ```python
 tag = "USER_TAG"
 
@@ -88,7 +88,7 @@ tag = "CLAN_TAG"
 cWar = CoC.currentWar(tag)
 ```
 
-### Get current war attacks
+#### Get current war attacks
 ```python
 # Tag's clan attacks
 cWar.getClanAttacks()
@@ -97,7 +97,7 @@ cWar.getClanAttacks()
 cWar.getOpponentAttacks()
 ```
 
-### Get current war clan members
+#### Get current war clan members
 ```python
 # Tag's clan members
 cWar.getClanMembers()
@@ -106,7 +106,7 @@ cWar.getClanMembers()
 cWar.getOpponentMembers()
 ```
 
-### Get current war clan members stats
+#### Get current war clan members stats
 ```python
 # Tag's clan members stats:
 cWar.getClanMembersStats()
@@ -115,7 +115,7 @@ cWar.getClanMembersStats()
 cWar.getOpponentMembersStats()
 ```
 
-### Get current war clan troops level
+#### Get current war clan troops level
 ```python
 # Tag's clan troops level:
 cWar.getClanTroopsLevel()
@@ -148,3 +148,7 @@ cWar.plotBetterOrder()
 ```python
 cWar.plotClanAttack()
 ```
+
+
+## Disclaimer
+This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy: https://supercell.com/en/fan-content-policy/
