@@ -11,7 +11,7 @@ Clan Wars League not implemented yet.
 hdr = {'authorization' : 'Bearer API_KEY'}
 ```
 ## Example:
-See coc.ipynb for examples.
+See folder "Examples".
   
 ## Documentation:
 #### Get clan members:
